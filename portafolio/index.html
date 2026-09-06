@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/components.css">
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
 </head>
 
@@ -199,57 +200,69 @@
   <div class="projects-grid reveal">
 
 
-    <!-- PROJECT 01 -->
+  <!-- PROJECT 01 -->
 
-    <div class="project-card">
+<div class="project-card">
 
-      <span class="num">
-        01
-      </span>
+  <model-viewer
+    src="assets/models/Silloncito.glb"
+    alt="Modelado 3D - Silloncito"
+    camera-controls
+    auto-rotate
+    shadow-intensity="1"
+    style="width: 100%; height: 250px; background-color: transparent;">
+  </model-viewer>
 
-      <h3>
-        Modelado 3D
-      </h3>
+  <span class="num">
+    01
+  </span>
 
-      <p>
-        Proyecto de modelado enfocado en construcción de formas,
-        proporciones, detalles y presentación visual del objeto.
-      </p>
+  <h3>
+    Modelado 3D
+  </h3>
 
-      <div class="stack">
-        <span>Maya</span>
-        <span>3D</span>
-        <span>Modelado</span>
-      </div>
+  <p>
+    Proyecto de modelado enfocado en construcción de formas,
+    proporciones, detalles y presentación visual del objeto.
+  </p>
 
-    </div>
+  <div class="stack">
+    <span>Maya</span>
+    <span>3D</span>
+    <span>Modelado</span>
+  </div>
 
+</div>
 
     <!-- PROJECT 02 -->
 
-    <div class="project-card">
+<div class="project-card">
 
-      <span class="num">
-        02
-      </span>
+  <video controls class="project-video" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 16px;">
+    <source src="assets/images/video-rpi.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
 
-      <h3>
-        Diseño de interfaz
-      </h3>
+  <span class="num">
+    02
+  </span>
 
-      <p>
-        Propuesta de interfaz digital desarrollada a partir de
-        principios de UX, organización visual, navegación y
-        jerarquía de información.
-      </p>
+  <h3>
+    Diseño de interfaz
+  </h3>
 
-      <div class="stack">
-        <span>Figma</span>
-        <span>UI/UX</span>
-        <span>Prototipo</span>
-      </div>
+  <p>
+    Propuesta de interfaz digital desarrollada para un repositorio web
+    de proyectos integradores de la UPGCH en la carrera de ingeniería en animación.
+  </p>
 
-    </div>
+  <div class="stack">
+    <span>Python</span>
+    <span>UI/UX</span>
+    <span>Prototipo</span>
+  </div>
+
+</div>
 
 
     <!-- PROJECT 03 -->
@@ -261,7 +274,7 @@
       </span>
 
       <h3>
-        Personaje / Objeto 3D
+        Hard Surface / Objeto 3D
       </h3>
 
       <p>
@@ -407,6 +420,8 @@
           DaVinci Resolve
           <span>EDICIÓN</span>
         </div>
+      </div>
+    </div>
   </div>
 
 </section>
@@ -443,17 +458,24 @@
 
   <div class="contact-links reveal">
 
-    <a href="#">
+    <a href="https://www.artstation.com/turrxn" target="_blank">
       Artstation
     </a>
 
-    <a href="#">
+    <a href="https://www.instagram.com/axturren/" target="_blank">
       Instagram
     </a>
 
-    <a href="#">
+    <a href="https://www.behance.net/axturren" target="_blank">
       Behance
     </a>
+
+    <a href="https://www.linkedin.com/in/axturrén" target="_blank">
+      LinkedIn
+    </a>
+
+    <a href="https://sketchfab.com/axturren" target="_blank">
+      Sketchfab
 
   </div>
 
